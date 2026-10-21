@@ -2,7 +2,7 @@
 
 Three documents, one rule: **separate what changes from what must not change.**
 
-Reading view: [alessandroros.github.io/design-docs-template](https://alessandroros.github.io/design-docs-template/).
+Reading view: [openmove.github.io/engineering-design-playbook](https://openmove.github.io/engineering-design-playbook/).
 
 ## The method in 30 seconds
 
@@ -42,12 +42,14 @@ Without this split, every project hits the same three problems:
 
 ## See it on a real-looking project
 
-**[design-docs-example](https://github.com/alessandroros/design-docs-example)** — CityCycle, a fictional bike-sharing service. It walks the whole chain: initial architecture, two founding ADRs, an RFC that adds electric bikes, and the ADR that RFC produced. Read it once before starting your own.
+**[CityCycle](https://openmove.github.io/design-docs-example/)** — a fictional bike-sharing service, published beside this template. It walks the whole chain: initial architecture, two founding ADRs, an RFC that adds electric bikes, and the ADR that RFC produced. Source: [openmove/design-docs-example](https://github.com/openmove/design-docs-example).
+
+The example is a separate repository because **Use this template** copies every file. Keeping CityCycle in this repository would drop a fictional bike-sharing system into every new project.
 
 ## Start a project
 
 ```bash
-gh repo create my-project --template alessandroros/design-docs-template --private
+gh repo create my-project --template openmove/engineering-design-playbook --private
 ```
 
 Or choose **Use this template** on GitHub.

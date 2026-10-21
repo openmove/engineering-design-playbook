@@ -8,8 +8,12 @@ hero:
     - text: Read the method
       link: "#the-method-in-30-seconds"
       icon: right-arrow
+    - text: See the example
+      link: https://openmove.github.io/design-docs-example/
+      icon: external
+      variant: minimal
     - text: Use this template
-      link: https://github.com/alessandroros/design-docs-template/generate
+      link: https://github.com/openmove/engineering-design-playbook/generate
       icon: external
       variant: minimal
 ---
@@ -52,12 +56,14 @@ Without this split, every project hits the same three problems:
 
 ## See it on a real-looking project
 
-**[design-docs-example](https://github.com/alessandroros/design-docs-example)** — CityCycle, a fictional bike-sharing service. It walks the whole chain: initial architecture, two founding ADRs, an RFC that adds electric bikes, and the ADR that RFC produced. Read it once before starting your own.
+**[CityCycle](https://openmove.github.io/design-docs-example/)** — a fictional bike-sharing service. It walks the whole chain: initial architecture, two founding ADRs, an RFC that adds electric bikes, and the ADR that RFC produced. Read it once before starting your own. The source is [openmove/design-docs-example](https://github.com/openmove/design-docs-example).
+
+CityCycle is a separate repository on purpose. **Use this template** copies every file in this repository. A filled example kept here would land in every new project.
 
 ## Start a project
 
 ```bash
-gh repo create my-project --template alessandroros/design-docs-template --private
+gh repo create my-project --template openmove/engineering-design-playbook --private
 ```
 
 Or choose **Use this template** on GitHub.
@@ -79,7 +85,7 @@ docs/
   rfc/            RFC template, full and mini
 ```
 
-The arc42 and MADR files are the official upstream templates, copied in unchanged. Nothing here is a new format. Sources and licenses are in [NOTICES.md](https://github.com/alessandroros/design-docs-template/blob/main/NOTICES.md).
+The arc42 and MADR files are the official upstream templates, copied in unchanged. Nothing here is a new format. Sources and licenses are in [NOTICES.md](https://github.com/openmove/engineering-design-playbook/blob/main/NOTICES.md).
 
 How each folder works: [architecture](architecture/README.md) · [ADRs](adr/README.md) · [RFCs](rfc/README.md)
 
