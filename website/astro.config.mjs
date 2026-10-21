@@ -7,7 +7,16 @@ export default defineConfig({
   site,
   base,
   integrations: [
-    mermaid({ autoTheme: true }),
+    mermaid({
+      autoTheme: true,
+      mermaidConfig: {
+        layout: 'elk',
+        elk: {
+          mergeEdges: true,
+          nodePlacementStrategy: 'LINEAR_SEGMENTS',
+        },
+      },
+    }),
     starlight({
       title: 'Design docs',
       description: 'RFC, ADR, and arc42 for software design documentation.',

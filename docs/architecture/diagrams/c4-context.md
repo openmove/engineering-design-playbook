@@ -23,6 +23,10 @@ C4Context
 ```
 
 ```mermaid
+---
+config:
+  layout: elk
+---
 flowchart TB
   user["User"]
   operator["Operator"]

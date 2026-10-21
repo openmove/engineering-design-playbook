@@ -17,6 +17,10 @@ Before you write anything, ask one question: *is this still being decided, alrea
 They form a chain. Skipping the last step is how documentation rots.
 
 ```mermaid
+---
+config:
+  layout: elk
+---
 flowchart LR
   work["New work"] --> q{"Is the solution<br/>obvious?"}
   q -->|yes| ticket["Ticket"]
