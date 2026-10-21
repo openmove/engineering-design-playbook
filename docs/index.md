@@ -56,7 +56,7 @@ Without this split, every project hits the same three problems:
 
 ## See it on a real-looking project
 
-**[CityCycle](https://openmove.github.io/design-docs-example/)** — a fictional bike-sharing service. It walks the whole chain: initial architecture, two founding ADRs, an RFC that adds electric bikes, and the ADR that RFC produced. Read it once before starting your own. The source is [openmove/design-docs-example](https://github.com/openmove/design-docs-example).
+**[CityCycle](https://openmove.github.io/design-docs-example/tour/)** — a fictional bike-sharing service. The [tour](https://openmove.github.io/design-docs-example/tour/) walks the chain and names what each document buys you: a short map at the start, founding ADRs, an RFC that added electric bikes, and a later RFC still in review. Source: [openmove/design-docs-example](https://github.com/openmove/design-docs-example).
 
 CityCycle is a separate repository on purpose. **Use this template** copies every file in this repository. A filled example kept here would land in every new project.
 
