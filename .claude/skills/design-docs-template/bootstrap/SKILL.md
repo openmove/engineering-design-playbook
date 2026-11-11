@@ -1,10 +1,10 @@
 ---
 name: docs-template-bootstrap
 description: >-
-  Bootstraps a new design-docs repository from the GitHub template (RFC, ADR,
-  arc42, Starlight) and leaves agent skills inside the new repo. Day-zero
-  scaffolding — the user should not clone templates by hand. Invoked via
-  design-docs-template.
+  Bootstraps a new OpenMove design-docs repository from
+  openmove/engineering-design-playbook (RFC, ADR, arc42, Starlight) and leaves
+  agent skills inside the new repo. Day-zero scaffolding — the user should not
+  clone templates by hand. Invoked via design-docs-template.
 ---
 
 # bootstrap — new docs repo
@@ -29,10 +29,7 @@ Ask only what is missing (one batch):
 - **GitHub owner** (user or org; default: authenticated `gh` user)
 - **Site `base` path** (default: `/<repo-name>`)
 - **Create GitHub remote?** (default **yes** — required for the polished path)
-- **Template flavour** if not obvious:
-  - `alessandroros/design-docs-template` (generic)
-  - `openmove/engineering-design-playbook` (OpenMove)
-  - If already inside one of those repos, use that remote’s template
+- **Template flavour**: default **`openmove/engineering-design-playbook`**. Use `alessandroros/design-docs-template` only if the user asks for the generic upstream.
 
 ### 2. Create the repo (GitHub template)
 

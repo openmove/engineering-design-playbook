@@ -37,7 +37,7 @@ Six commands under one roof. Read the matching child `SKILL.md` and follow it; d
 
 | Flavour | GitHub template |
 | --- | --- |
-| Personal / generic | `alessandroros/design-docs-template` |
-| OpenMove | `openmove/engineering-design-playbook` |
+| **OpenMove (default here)** | `openmove/engineering-design-playbook` |
+| Generic upstream | `alessandroros/design-docs-template` |
 
-**bootstrap** uses the flavour of *this* repo when already inside one of them; otherwise ask which template to clone from.
+**bootstrap** defaults to `openmove/engineering-design-playbook` in this playbook; only use the generic template if the user asks.
