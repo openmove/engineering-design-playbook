@@ -10,7 +10,7 @@ You only install **this skill**. Then you ask the agent to **bootstrap**: it cre
 install skill (once)  →  /design-docs-template → bootstrap  →  repo ready
 ```
 
-After that, in the new repo: `new-rfc`, `preview`, `rfc-hygiene`, `close-loop`, …
+After that, in the new repo: `new-rfc`, `preview`, `rfc-hygiene`, `close-loop`, `update-skills`, …
 
 ## Install the skill (once per agent)
 
@@ -89,6 +89,8 @@ Docs: [Pi skills](https://pi.dev/docs/latest/skills).
 
 **bootstrap** creates the project via `gh repo create --template openmove/engineering-design-playbook`, so the new repo already contains all three skill paths.
 
+Later, refresh local skill copies with **update-skills**.
+
 ## Commands
 
 | Command | What it does |
@@ -99,6 +101,7 @@ Docs: [Pi skills](https://pi.dev/docs/latest/skills).
 | **rfc-hygiene** | Cleans a noisy draft RFC (names, diagrams, examples, stale prose). |
 | **close-loop** | Approved RFC → ADR(s) + arc42/C4 checklist. |
 | **preview** | Sync + local Starlight; prints URL with `base`. |
+| **update-skills** | Pulls the latest skill tree from `openmove/engineering-design-playbook` into `.cursor` / `.claude` / `.agents`. |
 
 ## Method (one screen)
 
